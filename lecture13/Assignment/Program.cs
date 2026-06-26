@@ -69,9 +69,9 @@ namespace Assignment
                         stServ.DeleteStudnet();
                         break;
                     case "8":
-                        Console.WriteLine("The application is complete!");
+                        Console.WriteLine(""Goodbye!"");
                         break;
-                    default: Console.WriteLine("Invalid choose!"); break;
+                    default: Console.WriteLine("Invalid choice!"); break;
                 }
             }
 
