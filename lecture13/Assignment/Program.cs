@@ -1,7 +1,6 @@
 ﻿using Assignment.Helpers;
 using Assignment.Models;
 using Assignment.Services;
-using System.Threading.Channels;
 
 namespace Assignment
 {
@@ -66,10 +65,10 @@ namespace Assignment
                         stServ.AddStudent();
                         break;
                     case "7":
-                        stServ.DeleteStudnet();
+                        stServ.DeleteStudent()
                         break;
                     case "8":
-                        Console.WriteLine(""Goodbye!"");
+                        Console.WriteLine("Goodbye!");
                         break;
                     default: Console.WriteLine("Invalid choice!"); break;
                 }
